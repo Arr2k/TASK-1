@@ -1,0 +1,25 @@
+# Nmap 7.95 scan initiated Mon Aug  4 18:16:20 2025 as: /usr/lib/nmap/nmap -sS -oN scan_result.txt 192.168.1.0/24
+Nmap scan report for RTK_GW.domain.name (192.168.1.1)
+Host is up (0.012s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT    STATE    SERVICE
+21/tcp  open     ftp
+22/tcp  filtered ssh
+23/tcp  filtered telnet
+53/tcp  open     domain
+80/tcp  open     http
+443/tcp open     https
+MAC Address: 8C:C7:C3:FB:54:FC (Netlink ICT)
+
+Nmap scan report for 192.168.1.4
+Host is up (0.049s latency).
+All 1000 scanned ports on 192.168.1.4 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: F2:3C:D9:B1:BC:27 (Unknown)
+
+Nmap scan report for arupraa.domain.name (192.168.1.6)
+Host is up (0.0000030s latency).
+All 1000 scanned ports on arupraa.domain.name (192.168.1.6) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+# Nmap done at Mon Aug  4 18:16:47 2025 -- 256 IP addresses (3 hosts up) scanned in 26.55 seconds
